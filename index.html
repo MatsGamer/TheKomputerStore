@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="index.js"></script>
+    <meta name="description" content="The Komputer Store" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Sometype+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto&family=Sometype+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Komputer Store</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="StickyNav">
+        <nav>
+          <ul>
+            <li id="currency-display">Currency: 20000,- NOK</li>
+            <li>|</li>
+            <li id="day-display">Day: 1</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="bank" id="bank-ui">
+          <h2>Bank</h2>
+          <input
+            type="number"
+            id="loan-amount"
+            placeholder="Amount you want to loan here"
+          />
+          <button id="loan-btn">Loan</button>
+          <p>Currently owe: <span id="currently-owe">0</span> NOK</p>
+          <button id="payoff-all-loans-btn">Pay Off All Loans</button>
+          <div id="payback-loan-box" class="hidden"></div>
+        </div>
+
+        <div class="store" id="store">
+          <h2>Your Store</h2>
+          <button id="work-tab-btn">Work</button>
+          <button id="transactions-tab-btn">Transactions</button>
+          <button id="upgrades-tab-btn">Upgrades</button>
+
+          <button id="end-day-btn">End Day</button>
+          <div id="work-tab" class="hidden">
+            <button id="start-work-btn">Start Work</button>
+            <div id="work-log"></div>
+          </div>
+          <div
+            id="transactions-tab"
+            class="hidden"
+            style="max-height: 300px; overflow-y: auto"
+          >
+            <ul id="transactions-list"></ul>
+          </div>
+          <div id="upgrades-tab" class="hidden">
+            <div id="employees">
+              <h3>Hire employees: 275 NOK/Work Session</h3>
+              <p><em>Increases sale chance</em></p>
+              <p id="employee-count">Employees: 0</p>
+              <div class="button-container">
+                <button id="hire-btn">Hire</button>
+                <button id="fire-btn" class="hidden">Fire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="inventory" id="inventory">
+          <h2>Inventory</h2>
+          <div class="inventory-container" id="inventory-container"></div>
+        </div>
+
+        <div class="shop" id="shop">
+          <h2>Shop</h2>
+          <select id="sort-options">
+            <option value="low-to-high">Lowest to Highest</option>
+            <option value="high-to-low">Highest to Lowest</option>
+          </select>
+          <div class="products-container" id="products-container"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

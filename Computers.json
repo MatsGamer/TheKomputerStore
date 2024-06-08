@@ -1,0 +1,32 @@
+[
+  {
+    "product-name": "Komplett-PC Core Gaming RGB - Ryzen 5 5600G",
+    "product-price": "8999",
+    "product-id": "1",
+    "product-img": "https://www.komplett.no/img/p/1200/1180566.jpg"
+  },
+  {
+    "product-name": "Komplett-PC Core Gaming i95 Black",
+    "product-price": "13499",
+    "product-id": "2",
+    "product-img": "https://www.komplett.no/img/p/1200/1247134.jpg"
+  },
+  {
+    "product-name": "Komplett-PC Advanced Gaming a146 RGB",
+    "product-price": "17499",
+    "product-id": "3",
+    "product-img": "https://www.komplett.no/img/p/1200/1246567.jpg"
+  },
+  {
+    "product-name": "Komplett-PC Advanced Gaming a185",
+    "product-price": "23499",
+    "product-id": "4",
+    "product-img": "https://www.komplett.no/img/p/1080/1303100.jpg"
+  },
+  {
+    "product-name": "Komplett-PC Epic Gaming a385 RGB - NV7 Edition",
+    "product-price": "67999",
+    "product-id": "5",
+    "product-img": "https://www.komplett.no/img/p/1080/1245456.jpg"
+  }
+]

@@ -28,13 +28,12 @@ A simple web-based game where players manage their finances by taking loans, hir
    git clone https://github.com/MatsGamer/TheKomputerStore.git
    cd TheKomputerStore
 - Open the project in your preferred code editor.
-- Open index.html in a web browser to start playing the game.
+- Open with Liveserver in VS Code.
 
 ## How to Play
 
  **Taking a loan:**
  - Enter the loan amount and click the "Take Loan" button.
- - Click the button to pay off the entire loan amount if you have sufficient currency.
  
  **Paying Off Loans:**
 - If you have an active loan, the "Pay Off All Loans" button will be visible.
